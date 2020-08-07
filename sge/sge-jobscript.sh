@@ -5,7 +5,7 @@ if [[ -f ~/.bashrc &&  $(grep -c "__conda_setup=" ~/.bashrc) -gt 0 && $(grep -c 
    . ~/.bashrc
 else
    echo "Exporting conda PATH" 1>&2
-   export PATH=/ebio/abt3_projects/software/dev/miniconda3_dev/bin:$PATH
+   export PATH=/ebio/abt6_projects9/abt6_software/bin/miniconda3/bin/:$PATH
 fi
 
 {exec_job}
